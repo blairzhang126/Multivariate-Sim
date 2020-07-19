@@ -1,5 +1,5 @@
 # Multivariate Simulation
-This repository has the example code for simulating balanced and unbalanced case control sample sizes for testing univariate and multivariate analyses. The total sample size is 10,000 and the balance/imbalance describe the property of case sample size.  
+This repository has the example R code for simulating balanced and unbalanced case control sample sizes for testing univariate and multivariate analyses. The total sample size is 10,000 and the balance/imbalance describes the property of case sample size. The code is flexiable in simulating other sample sizes by changing the parameters. 
 
 
 Reference: 
