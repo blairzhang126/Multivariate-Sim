@@ -1,4 +1,4 @@
-#Code for simulating 100 balanced case sample size for power evaluation
+#Code for simulating 100 balanced case sample size for power evaluation. This code is for simulating 5 traits. 
 library(bindata)
 library(MultiPhen)
 n=10000
@@ -56,6 +56,5 @@ y<-as.matrix(y)
 rownames(y)<-seq(1:10000)
 rownames(x)<-seq(1:10000)
 mPhen_out <- mPhen(x[,1, drop=FALSE], y, phenotypes = all,  resids = NULL, covariates=NULL, strats = NULL,opts = mPhen.options(c("regression","pheno.input")))
-#below command is for 5 traits
 mPhen_jointp <- mPhen_out$Results[,,,2][6]
 write.table(mPhen_jointp, file="run1.multiphen.output", col.names=T, row.names=T, sep="\t",quote=F)
