@@ -1,5 +1,5 @@
 # Multivariate Simulation
-This repository has the example code for simulating different unbalanced case control sample sizes for testing univariate and multivariate analyses. 
+This repository has the example code for simulating balanced and unbalanced case control sample sizes for testing univariate and multivariate analyses. 
 
 
 Reference: 
