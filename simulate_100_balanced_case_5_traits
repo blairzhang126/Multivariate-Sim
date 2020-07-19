@@ -12,7 +12,7 @@ x<-as.matrix(x)
 beta=c(0.3,0.3,0.3,0.3,0.3)
 
 #User can input a phenotype matrix which they wish to produce the correlation matrix for simulated traits. In this example, d file contains 5 traits as columns and individuals as rows (with a header and no rowname). Here I'm posting an example of the correlation matrix (b_cor) among 5 traits that described in the manuscript.
-#d<-read.table("/home/blairzxy/group/scratch/blair/simulation_multivariate/power/random_select_5_trait_from_ukb",header=T)
+#d<-read.table("random_select_5_trait_from_ukb",header=T)
 #b_cor<-cor(d)
 #b_cor
 #              F322         F432         I208        I258         I429
