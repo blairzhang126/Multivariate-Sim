@@ -1,4 +1,4 @@
-#Code for simulating 100 balanced case sample size for power evaluation. This code is for simulating 5 traits. 
+#R code for simulating 100 balanced case sample size for power evaluation. This code is for simulating 5 traits. 
 library(bindata)
 library(MultiPhen)
 n=10000
