@@ -1,4 +1,4 @@
-#Code for simulating unbalanced scenario (Scenario1 in paper), which has 4 traits with case sample size of 100 and 1 trait with case sample size of 500. 
+#R code for simulating unbalanced scenario (Scenario1 in paper), which has 4 traits with case sample size of 100 and 1 trait with case sample size of 500. 
 library(bindata)
 library(MultiPhen)
 n=10000
